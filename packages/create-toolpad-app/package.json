@@ -3,6 +3,7 @@
   "version": "0.16.0",
   "author": "MUI Team",
   "description": "Create Toolpad apps with one command",
+  "license": "MIT",
   "keywords": [
     "react",
     "toolpad",
@@ -13,7 +14,6 @@
     "url": "git+https://github.com/mui/toolpad.git",
     "directory": "packages/create-toolpad-app"
   },
-  "license": "MIT",
   "bin": {
     "create-toolpad-app": "./dist/index.js"
   },

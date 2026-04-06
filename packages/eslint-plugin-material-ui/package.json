@@ -3,6 +3,7 @@
   "version": "0.16.0",
   "private": true,
   "description": "Custom eslint rules for Material UI.",
+  "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
     "emoji-regex": "10.4.0"
@@ -15,6 +16,5 @@
   "repository": {
     "type": "git",
     "url": "github:mui/material-ui"
-  },
-  "license": "MIT"
+  }
 }

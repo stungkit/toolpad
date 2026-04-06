@@ -3,6 +3,7 @@
   "version": "0.16.0",
   "author": "MUI Team",
   "description": "Dashboard framework powered by Material UI.",
+  "license": "MIT",
   "main": "./node/index.js",
   "module": "./index.js",
   "keywords": [
@@ -19,7 +20,6 @@
     "url": "git+https://github.com/mui/toolpad.git",
     "directory": "packages/toolpad-core"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mui/toolpad/issues"
   },
