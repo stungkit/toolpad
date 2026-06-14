@@ -35,12 +35,7 @@ export function UserOrg() {
               <Typography variant="caption" fontWeight="bolder">
                 {orgName}
               </Typography>
-              <Link
-                variant="caption"
-                href={orgUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link variant="caption" href={orgUrl} target="_blank">
                 {orgUrl}
               </Link>
             </Stack>

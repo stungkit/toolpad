@@ -131,7 +131,6 @@ export default function ExamplesGrid(props: ExamplesGridProps) {
                       component="a"
                       href={`https://stackblitz.com/github/${example.source.replace('https://github.com/', '')}`}
                       target="_blank"
-                      rel="noopener noreferrer"
                       size="small"
                     >
                       <StackBlitzIcon />
@@ -145,7 +144,6 @@ export default function ExamplesGrid(props: ExamplesGridProps) {
                       component="a"
                       href={`https://codesandbox.io/p/sandbox/github/${example.source.replace('https://github.com/', '')}`}
                       target="_blank"
-                      rel="noopener noreferrer"
                       size="small"
                     >
                       <CodeSandboxIcon />

@@ -130,7 +130,6 @@ export default function ExamplesFeatured(props: FeaturedExamplesProps) {
                         component="a"
                         href={`https://stackblitz.com/github/${example.source.replace('https://github.com/', '')}`}
                         target="_blank"
-                        rel="noopener noreferrer"
                         color="primary"
                         size="small"
                         aria-label={t('stackblitzPlayground')}
@@ -149,7 +148,6 @@ export default function ExamplesFeatured(props: FeaturedExamplesProps) {
                         component="a"
                         href={`https://codesandbox.io/p/sandbox/github/${example.source.replace('https://github.com/', '')}`}
                         target="_blank"
-                        rel="noopener noreferrer"
                         color="primary"
                         size="small"
                         aria-label={t('codesandboxPlayground')}
